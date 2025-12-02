@@ -1,0 +1,20 @@
+.navbar-project {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    top: 0;
+    left: 15%;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.2rem;
+
+}
+
+.navbar-project a {
+    color: black;
+
+}
+
+.project-content {
+    margin-top: 2rem;
+}
