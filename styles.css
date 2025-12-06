@@ -144,6 +144,26 @@ li {
     color: white;
 }
 
+#contact {
+    padding: 3rem 0;
+}
+
+#contact a {
+    display: inline-block;
+
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+#contact a:hover,
+#contact a:focus {
+    color: gray;
+}
+
 @media (max-width: 48rem) {
     header {
         position: absolute;
