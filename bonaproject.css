@@ -1,0 +1,93 @@
+body {
+    margin: 0rem 10rem;
+    background-color: #F2F3F4;
+
+}
+
+.bona-content {
+    margin-top: 2rem;
+}
+
+.bona-content a {
+    display: inline-block;
+
+    text-decoration: none;
+    color: black;
+    font-family: "Roboto Mono", monospace;
+    font-size: 1rem;
+    transition-property: color;
+    transition-duration: 0.3s;
+}
+
+.bona-content a:hover,
+.bona-content a:focus {
+    color: gray;
+}
+
+.bona-research-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.bona-research-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+
+.bona-role h3 {
+    font-family: "Inter", sans-serif;
+    font-size: 1.7rem;
+    font-weight: normal;
+}
+
+.bona-role-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bona-role-grid img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.hero-img {
+    display: flex;
+    justify-content: center;
+}
+
+.hero-img img {
+    width: 80%;
+    height: auto;
+    object-fit: cover;
+
+}
+
+
+
+@media (max-width: 48rem) {
+    body {
+        margin: 0rem 1rem;
+
+    }
+
+    .hero-img img {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+
+    }
+
+
+    .bona-role-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .bona-research-grid {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
